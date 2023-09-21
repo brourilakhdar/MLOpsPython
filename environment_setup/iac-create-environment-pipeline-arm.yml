@@ -1,6 +1,5 @@
 # CI/PR Pipeline that deploys an ARM template to create or update the resources needed by the other pipelines.
-pool:
-  name: 'my-personnal-computer'
+
 
 trigger:
   branches:
@@ -18,6 +17,7 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
+  name: 'my-personnal-computer'
   vmImage: "ubuntu-latest"
 
 variables:
