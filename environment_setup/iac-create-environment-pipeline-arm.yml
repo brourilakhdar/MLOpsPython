@@ -17,7 +17,7 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
-  name: 'my-personnal-computer'
+  # name: 'my-personnal-computer'
   vmImage: "ubuntu-latest"
 
 variables:
