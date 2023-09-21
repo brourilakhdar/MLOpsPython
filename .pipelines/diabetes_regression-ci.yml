@@ -22,6 +22,7 @@ variables:
 - group: devopsforai-aml-vg
 
 pool:
+  name: 'my-personnal-computer'
   vmImage: ubuntu-latest
 
 stages:
